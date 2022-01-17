@@ -1,0 +1,142 @@
+.side-bar{
+    background-color: white;
+    min-width: 200px !important;
+    flex: 0px !important;
+    
+}
+
+.sidenav_menubar{
+    margin-top:5px;
+    padding:7px;
+    height: 100%; 
+    border-right: 0;
+}
+
+.site-layout-background {
+    height: 88vh;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    background-color:white;
+    color:black;
+    font-weight: 750;
+    font-size: 100px;
+    font-style: oblique;
+    text-align: center;
+    font-family:  cursive;
+   }
+
+   .site-layout-background1{
+    min-width: 200px !important;
+    flex: 0px !important;
+    height: 88vh;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color:white;
+    color:black;
+    font-weight: 50;
+    font-size: 15px;
+    text-align: left;
+    font-family:  cursive;
+    padding-left: .8em;
+      }
+    
+      .site-layout-background3{
+        background-color: white;
+        min-width: 200px !important;
+        flex: 0px !important;
+        height: 88vh;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        color:black;
+        font-weight: 50;
+        font-size: 55px;
+        text-align: center;
+        font-family:  cursive;
+        padding-left: .8em;
+        padding: '0 20px 24px';
+
+      }
+
+
+.header , .ant-menu-dark {
+   
+    background-color:black;
+}
+
+@media only screen and (max-width: 768px) {
+    .site-layout-background {
+      font-size: 45px;
+    }
+} 
+
+@media only screen and (max-width: 1080px) {
+    .site-layout-background {
+      font-size: 55px;
+    }
+} 
+
+.logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 0px 31px 31px 0;
+    color:white;
+    font-weight: 900;
+    background-color: black;
+
+    
+    
+}
+
+.profile_btn {
+    float: right;
+    height: 47px;
+    margin: 0px 20px 0px 0;
+    background-color: #0c0c0c;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    
+}
+
+[data-theme="dark"] .site-layout-background {
+    background: #141414;
+
+}
+
+.icon1{
+    margin-right: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: -50px;
+}
+
+.icon2{
+    margin-right: 20px;
+    font-size: 20px;
+    margin-left: 80px;
+    position: absolute;
+    margin-top: -50px;
+}
+
+.icon3{
+    margin-right: 20px;
+    font-size: 20px;
+    margin-left: 150px;
+    position: absolute;
+    margin-top: -50px;
+}
+
+/*.login1{
+    color: white;
+}
+.signup1{
+color: white;
+}
+.home1{
+    color: red;
+    background-color: black;
+
+}*/
+

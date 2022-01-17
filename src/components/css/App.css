@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.lContainer {
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 38px;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: 90vh;
+  background-color: #070707;
+  min-height: 660px;
+  align-content: center;
+}
+
+.spanLink{
+  color: #0d0d0e;
+  background-color: transparent;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  transition: color .3s;
+  background-color: #070707;
+}
+
+.footer {
+  color: rgb(206, 212, 217);
+  text-align: center;
+  font-size: 12px;
+  padding: 1rem;
+  user-select: none;
+  margin-top:-45px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.login-form {
+  width: 100%;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+  background-color: #070707;
+}
+
+.hidden {
+  display: none;
+}
+
+.lItem {
+  width:360px;
+}
+
+.loginForm {
+  background-color: white;
+  padding: 16px 16px 2px 16px;
+  margin-top:30px;
+  border-radius: 8px;
+  border: 1px solid #d8d8da;
+}
+
+.loginImage {
+  margin-top: -160px;
+  margin-bottom: 70px;
+}
+
+tbody {
+  font-size: 14px;
+}
+
+.footerLink {
+  text-decoration: none;
+  color: rgb(206, 212, 217);;
+}
+
+.link,.link1,.link3{
+  color:#1890ff;
+}
+
+.forgot_pass,.login_detail,.signup_detail {
+  color: #070707;
+}
+
+.blogform .lItem {
+  width:50% !important;
+}
